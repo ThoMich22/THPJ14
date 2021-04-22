@@ -30,7 +30,7 @@ def crypto_scrapper
     rescue => e 
         puts "no error"
     end 
-    puts crypto_value_array
+    return crypto_value_array
     
 end
 
